@@ -3,8 +3,11 @@ import Banner from './Component/Banner/Banner';
 import Information from './Component/Information/Information';
 import Tools from './Component/Tools/Tools';
 import Steps from './Component/Steps/Steps';
+import Pricing from './Component/Pricing/Pricing';
 import './App.css'
 import { Suspense } from 'react';
+import Workflow from './Component/Workflow/Workflow';
+import Footer from './Component/Footer/Footer';
 
 const fetchCartData = async () => {
   const res = await fetch("/data.json");
@@ -28,6 +31,9 @@ function App() {
       </Suspense>
 
       <Steps></Steps>
+      <Pricing></Pricing>
+      <Workflow></Workflow>
+      <Footer></Footer>
 
     </>
   )
