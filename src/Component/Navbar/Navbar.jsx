@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
+import { FiAlignLeft } from 'react-icons/fi';
 
 const Navbar = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className='bg-base-200'>
       <div className="navbar max-w-7xl mx-auto px-6 py-6">
-        <div className="navbar-start">
+        <div className="navbar-start flex items-center gap-4">
+          <FiAlignLeft onClick={() => setIsMenuOpen(!isMenuOpen)} className='text-4xl lg:hidden'></FiAlignLeft>  
           <h1 className="text-4xl font-bold pb-1 bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">DigiTools</h1>
         </div>
-        <div className="navbar-center flex">
+        <div className="navbar-center hidden lg:flex ">
           <ul className="flex gap-6 px-1 font-semibold items-center">
             <li><a href="">Products</a></li>
             <li><a href="">Features</a></li>
