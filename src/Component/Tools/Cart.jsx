@@ -43,7 +43,7 @@ const Cart = ({ data, isSelected, setIsSelected , cart}) => {
                       className={`btn rounded-full text-white btn-block ${isSelected.includes(tool.id)? "bg-green-500": "bg-linear-to-r from-indigo-600 to-purple-600"}`} onClick={() =>{ setIsSelected((prev) => [...prev, tool.id])
                         toast.success(`${tool.title} added to cart!`);
                       }} >
-                      {isSelected.includes(tool.id)? "Added to Cart" : "Buy Now"}
+                      {isSelected.includes(tool.id) ? "Added to Cart" : "Buy Now"}
                     </button>
                   </div>
                 </div>
