@@ -8,6 +8,7 @@ import './App.css'
 import { Suspense } from 'react';
 import Workflow from './Component/Workflow/Workflow';
 import Footer from './Component/Footer/Footer';
+import { ToastContainer } from 'react-toastify';
 
 const fetchCartData = async () => {
   const res = await fetch("/data.json");
@@ -34,7 +35,7 @@ function App() {
       <Pricing></Pricing>
       <Workflow></Workflow>
       <Footer></Footer>
-
+<ToastContainer />
     </>
   )
 }
