@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div>
           <h3 className="text-white font-medium mb-4">Social Links</h3>
-          <div className="flex gap-3">
+          <div className="flex gap-3 justify-center">
             <a className="bg-white text-black p-2 rounded-full hover:scale-110 transition">
               <FaYoutube size={14} /></a>
             <a className="bg-white text-black p-2 rounded-full hover:scale-110 transition">

@@ -20,7 +20,7 @@ const Banner = () => {
           <div className="flex flex-col sm:flex-row gap-3 mt-6 justify-center md:justify-start">
             <button className="bg-linear-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition">
               Explore Products </button>
-            <button className="border border-purple-500 text-purple-600 px-6 py-3 rounded-full hover:bg-purple-200 transition flex items-center gap-2"> <CiPlay1 /> Watch Demo
+            <button className="border border-purple-500 text-purple-600 px-6 py-3 rounded-full hover:bg-purple-200 transition flex justify-center gap-2 text-center"> <CiPlay1 /> Watch Demo
             </button>
           </div>
         </div>
