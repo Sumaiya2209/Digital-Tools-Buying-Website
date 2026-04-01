@@ -18,4 +18,4 @@ A responsive React.js website to for digital tools and manage a shopping cart wi
 
 - **Navbar & Banner:** Fully responsive navbar with cart icon and banner section.  
 - **Products & Cart:** 3-column product cards with buying button, cart management, and checkout functionality.  
-- **Responsive Design:** Works properly on all devices, with toast notifications for all cart actions.  
+- **Responsive Design:** Works properly on all devices, use toast notifications for all cart actions.  
